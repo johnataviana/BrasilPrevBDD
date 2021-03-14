@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "9aae99b3-0a8a-480e-b6f2-59cfa694d47a",
+		"name": "BraslPrev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastro",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"codigo\": 0,\r\n\"nome\": \"Robson Vieira\",\r\n\"cpf\": \"21956672060\",\r\n\"enderecos\": [\r\n{\r\n\"logradouro\": \"Rua Sendor Lemos\",\r\n\"numero\": 1111,\r\n\"complemento\": \"Apartamento\",\r\n\"bairro\": \"CopaCabana\",\r\n\"cidade\": \"Rio de Janeiro\",\r\n\"estado\": \"RJ\"\r\n}\r\n],\r\n\"telefones\": [\r\n{\r\n\"ddd\": \"21\",\r\n\"numero\": \"988481709\"\r\n}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/pessoas",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consutar",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"codigo\": 0,\r\n\"nome\": \"Rommel Von\",\r\n\"cpf\": \"12345678909\",\r\n\"enderecos\": [\r\n{\r\n\"logradouro\": \"Rua Alexandre Dumas\",\r\n\"numero\": 123,\r\n\"complemento\": \"Empresa\",\r\n\"bairro\": \"Chacara Santo Antonio\",\r\n\"cidade\": \"São Paulo\",\r\n\"estado\": \"SP\"\r\n}\r\n],\r\n\"telefones\": [\r\n{\r\n\"ddd\": \"11\",\r\n\"numero\": \"985388877\"\r\n}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/pessoas/11/985388877",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoas",
+						"11",
+						"985388877"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gerador de Nome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://gerador-nomes.herokuapp.com/nome/aleatorio",
+					"protocol": "http",
+					"host": [
+						"gerador-nomes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"nome",
+						"aleatorio"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

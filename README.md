@@ -1,8 +1,11 @@
 # BrasilPrevBDD
 
 O projeto deve ser baixado do link (https://github.com/johnataviana); Projeto BrasilPrevBDD
+
 Baixe os arquivos, BDDs Atualizada.xlsx e BraslPrev.postman_collection.json
+
 Impote o arquivo BraslPrev.postman_collection.json para o postmam.
+
 API´s: Cadastro (POST) de pessoa e seus dados e Consultar (GET) de pessoa cadastrada pelo número de seu telefone.
  
 

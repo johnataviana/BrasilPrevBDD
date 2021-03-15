@@ -7,11 +7,11 @@
 ### Após instalação do POSTMAN; Import o projeto BraslPrev.postman_collection.json 
 
 ### File --> Import --> UPLOOD FILES
-API´s: Cadastro (POST) de pessoa e seus dados e Consultar (GET) de pessoa cadastrada pelo número de seu telefone foram realizadas atraves do
-POSMAN; Impote o arquivo BraslPrev.postman_collection.json para o postmam.
+### API´s: Cadastro (POST) de pessoa e seus dados e Consultar (GET) de pessoa cadastrada pelo número de seu telefone foram realizadas atraves do
+### POSMAN; Impote o arquivo BraslPrev.postman_collection.json para o postmam.
  
 
-## As features descreverão os seguinte cenarios para testar as funcionalidades;
+### As features descreverão os seguinte cenarios para testar as funcionalidades;
 
 
 ### Scenario 1: Validar cadastro de pessoa
@@ -80,5 +80,5 @@ And o sistema cadastrou pessoa  com CPF alfanumérico
 And foi reportado um Bug
 (IMAGEM: consultar o arquivo BDDs Atualizada.xlsx)
 
-## Além disso o arquivo BDDs Atualizada.xlsx consta os teste funcionais em BDD, detalhado com os prints da execuçao dos testes pelo POSTMAN.
+### Além disso o arquivo BDDs Atualizada.xlsx consta os teste funcionais em BDD, detalhado com os prints da execuçao dos testes pelo POSTMAN.
 

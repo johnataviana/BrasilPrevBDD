@@ -6,7 +6,7 @@
 
 #### Baixe os arquivos, BDDs Atualizada.xlsx e BraslPrev.postman_collection.json
 
-#### Após instalação do POSTMAN; Import o projeto BraslPrev.postman_collection.json 
+#### File-->Import-->Upload Files-->Coleção-->Arquivo BrasilPrev
 
 #### File-->Import-->Upload Files-->Coleção-->Arquivo BrasilPrev
 

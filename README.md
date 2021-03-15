@@ -8,13 +8,13 @@
 
 #### Após instalação do POSTMAN; Import o projeto BraslPrev.postman_collection.json 
 
-#### File --> Import --> Upload Files
-#### API´s: Cadastro (POST) de pessoa e seus dados e Consultar (GET) de pessoa cadastrada pelo número de seu telefone foram realizadas atraves do
-#### POSMAN; Impote o arquivo BraslPrev.postman_collection.json para o postmam.
- 
+#### File --> Import --> Upload Files --> Coletions --> Arquivo BrasilPrev
+#### Opção (POST) Cadastro de pessoa "para cadastra dados"
+#### Opção (GET) Consulta de pessoa "cadastrada pelo número de seu telefone"
+
+#### Através dessas OPÇÔES, foram criadas as seguintes fearures:
 
 #### As features descreverão os seguinte cenarios para testar as funcionalidades;
-
 
 #### Scenario 1: Validar cadastro de pessoa
 Given que eu cadastre a Api "inserir cadastro de pessoa" 

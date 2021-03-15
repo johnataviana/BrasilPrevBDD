@@ -9,7 +9,9 @@
 #### Após instalação do POSTMAN; Import o projeto BraslPrev.postman_collection.json 
 
 #### File-->Import-->Upload Files-->Coletions-->Arquivo BrasilPrev
+
 #### Opção (POST) Cadastro de pessoa "para cadastra dados"
+
 #### Opção (GET) Consulta de pessoa "cadastrada pelo número de seu telefone"
 
 #### Através dessas OPÇÔES, foram criadas as seguintes fearures:
